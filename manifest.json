@@ -1,0 +1,33 @@
+{
+  "name": "chrome-stylize",
+  "author": "Akira HIRATA",
+  "description": "chrome extension for customize CSS and JS.",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "image/icon16.png",
+    "48": "image/icon48.png",
+    "128": "image/icon128.png"
+  },
+  "web_accessible_resources": ["docs/*"],
+  "browser_action": {
+    "default_icon": {
+      "19": "image/icon19.png"
+    },
+    "default_popup": "docs/popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "homepage_url": "https://github.com/psephopaiktes/chrome-stylize.git",
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.co.jp/*"],
+      "css": ["docs/google/style.css"],"js": ["docs/google/script.js"]
+    },
+    {
+      "matches": ["http://www.nicovideo.jp/watch/*"],
+      "css": ["docs/nico/style.css"],"js": ["docs/nico/script.js"]
+    }
+  ]
+}
