@@ -28,6 +28,10 @@
     {
       "matches": ["http://www.nicovideo.jp/watch/*"],
       "css": ["docs/nico/style.css"],"js": ["docs/nico/script.js"]
+    },
+    {
+      "matches": ["https://twitter.com//*"],
+      "css": ["docs/twitter/style.css"],"js": ["docs/twitter/script.js"]
     }
   ]
 }
