@@ -1,2 +1,10 @@
 @charset "utf-8";
 @import "../common";
+
+// 特定ドメインのサイトのデザインを変える
+
+a[href*="kotaeta.com"],
+a[href*="codeday.me"]
+{
+  opacity: 0.3;
+}
