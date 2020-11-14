@@ -4,6 +4,8 @@
 // 特定ドメインのサイトのデザインを変える
 
 a[href*="kotaeta.com"],
+a[href*="it-swarm-ja.tech"],
+a[href*="www.it-swarm-ja.tech"],
 a[href*="codeday.me"]
 {
   opacity: 0.3;
