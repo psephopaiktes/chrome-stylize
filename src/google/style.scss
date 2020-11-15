@@ -3,10 +3,29 @@
 
 // 特定ドメインのサイトのデザインを変える
 
-a[href*="kotaeta.com"],
+a[href*="*.coder.work"],
+a[href*="*.ojit.com"],
+a[href*="*.programqa.com"],
+a[href*="*.stackovernet.com"],
+a[href*="code-examples.net"],
+a[href*="code.i-harness.com"],
+a[href*="codeday.me"],
+a[href*="coderoad.ru"],
 a[href*="it-swarm-ja.tech"],
+a[href*="kotaeta.com"],
+a[href*="living-sun.com"],
+a[href*="overcoder.net"],
+a[href*="python5.com"],
+a[href*="qa.codeflow.site"],
+a[href*="qastack.jp"],
+a[href*="src-bin.com"],
+a[href*="stackoverrun.com"],
+a[href*="steakrecords.com"],
+a[href*="tutorialmore.com"],
+a[href*="www.366service.com"],
+a[href*="www.code-adviser.com"],
 a[href*="www.it-swarm-ja.tech"],
-a[href*="codeday.me"]
+a[href*="www.it-swarm.dev"]
 {
-  opacity: 0.3;
+  opacity: 0.2;
 }
